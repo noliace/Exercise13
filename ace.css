@@ -1,0 +1,135 @@
+.css
+
+{
+    margin: 0;
+    padding: 0;
+}
+
+.ace{
+    width:1170px;
+    margin:auto;
+}
+
+header{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("background.jpg");
+    height: 155vh;
+    -webkit-background-size: cover;
+    background-size:cover;
+    background-position:center center;
+    position: relative;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+.nav{
+    float:right;
+   
+    margin-top:150px;
+}
+
+.nav li{
+    display: inline-block;
+}
+
+.nav li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+.nav li a:hover{
+    background: #fff;
+    color: #333;
+}
+
+.logo img{
+    width: 100px;
+    float: left;
+    height: auto;
+    margin-top: 27px;
+}
+
+.welcome{
+    position:absolute;
+    width: 600px;
+    height: 300px;
+    margin: 15% 30%;
+    text-align: center;
+}
+
+.welcome h5{
+    text-align: center;
+    color: #fff;
+    text-transform:uppercase;
+    font-size: medium;
+}
+
+.welcome a{
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color:#fff;
+}
+
+.welcome a:hover{
+    background: #fff;
+    color: #333;
+}
+
+.box{
+    border: 1px solid #fff;
+    padding: 80px 80px;
+    text-decoration: none;
+    text-transform: none;
+    margin-bottom: 10px;
+    display:list-item;
+    color: #fff;
+    
+}
+
+.resume{
+    padding: 10px;
+    border: solid #fff 1px;
+    margin: 10px;
+    width: 350px;
+    text-decoration: none;
+    text-transform: none;
+    
+}
+
+.RA h3{
+    border: 1px solid #fff;
+    float: right;
+    height: 300px;
+    width: 250px;
+    text-align: center;
+    margin-right: -80px;
+    padding: 10px;
+    color:#fff;
+    text-transform:uppercase;
+}
+
+.RA i{
+    float:right;
+    color: #fff;
+    text-decoration: none;
+    font-size: small;
+    padding:10px;
+}
+
+.row{
+    padding: 10px;
+    border: solid #fff 1px;
+    margin: 10px;
+    width: 290px;
+    text-decoration: none;
+    text-transform: none;
+    float:left;
+    
+}
